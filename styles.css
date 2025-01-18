@@ -1,0 +1,509 @@
+/* Header Section */
+header {
+    background-color: #d8f3dc; /* Lightest green background for elegance */
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand-logo h1 {
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the brand name */
+    font-family: 'Arial', sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 1.1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1b4332; /* Dark green for text */
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #52b788; /* Light green for hover effect */
+}
+
+.btn-primary {
+    background-color: #40916c; /* Green background for the primary button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #74c69d; /* Lighter green on hover */
+}
+
+/* Hero Section */
+.hero-content {
+    background-color: #b7e4c7; /* Light mint green */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    color: #081c15; /* Dark green text */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the subtitle */
+}
+
+.hero-buttons a {
+    margin: 10px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: #40916c; /* Button background */
+    color: #ffffff;
+}
+
+.hero-buttons .btn-outline {
+    background-color: transparent;
+    border: 2px solid #52b788; /* Outline button */
+    color: #52b788;
+}
+
+.hero-buttons .btn-secondary:hover {
+    background-color: #74c69d;
+}
+
+.hero-buttons .btn-outline:hover {
+    background-color: #52b788;
+    color: #ffffff;
+}
+/* Features Section */
+.features-section {
+    background-color: #b7e4c7; /* Light mint green background for the section */
+    padding: 60px 0;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the title */
+}
+
+.features-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the subtitle */
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feature-card {
+    background-color: #d8f3dc; /* Lightest green for cards */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    font-size: 3rem;
+    color: #40916c; /* Dark green icons */
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #081c15; /* Dark green text */
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1.1rem;
+    color: #1b4332; /* Dark green text */
+}
+
+.feature-card:hover {
+    background-color: #74c69d; /* Hover effect to a lighter green */
+}
+
+.feature-card:hover h3,
+.feature-card:hover p {
+    color: #ffffff; /* White text on hover */
+}
+
+.feature-card:hover .icon-container {
+    color: #ffffff; /* White icons on hover */
+}
+/* Resources Section */
+.resources-section {
+    background-color: #95d5b2; /* Soft green background */
+    padding: 60px 0;
+}
+
+.resources-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the title */
+}
+
+.resources-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the subtitle */
+    margin-bottom: 40px;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.resource-card {
+    background-color: #d8f3dc; /* Light green for cards */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    font-size: 3rem;
+    color: #40916c; /* Dark green for icons */
+    margin-bottom: 20px;
+}
+
+.resource-card h3 {
+    font-size: 1.5rem;
+    color: #081c15; /* Dark green for card headings */
+    margin-bottom: 10px;
+}
+
+.resource-card p {
+    font-size: 1.1rem;
+    color: #1b4332; /* Dark green for text */
+}
+
+.resource-card a {
+    display: inline-block;
+    background-color: #74c69d; /* Light green button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.resource-card a:hover {
+    background-color: #40916c; /* Darker green button on hover */
+}
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #b7e4c7; /* Soft green background */
+    padding: 60px 0;
+}
+
+.testimonials-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the title */
+}
+
+.testimonials-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the subtitle */
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.testimonial-card {
+    background-color: #d8f3dc; /* Light green background for cards */
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    font-size: 4rem;
+    color: #40916c; /* Dark green for icons */
+    margin-bottom: 20px;
+}
+
+.testimonial-card p {
+    font-size: 1.1rem;
+    color: #1b4332; /* Dark green for text */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+    font-size: 1.4rem;
+    color: #081c15; /* Dark green for name */
+    margin-bottom: 5px;
+}
+
+.testimonial-card .testimonial-role {
+    font-size: 1rem;
+    color: #40916c; /* Dark green for role */
+}
+/* Free Tools Section */
+.free-tools-section {
+    background-color: #95d5b2; /* Light teal background */
+    padding: 60px 0;
+}
+
+.free-tools-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the title */
+}
+
+.free-tools-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the subtitle */
+    margin-bottom: 40px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tool-card {
+    background-color: #d8f3dc; /* Light green background for cards */
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    font-size: 4rem;
+    color: #40916c; /* Dark green for icons */
+    margin-bottom: 20px;
+}
+
+.tool-card h3 {
+    font-size: 1.4rem;
+    color: #081c15; /* Dark green for tool title */
+    margin-bottom: 10px;
+}
+
+.tool-card p {
+    font-size: 1.1rem;
+    color: #1b4332; /* Dark green for tool description */
+    margin-bottom: 20px;
+}
+
+.tool-card a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #74c69d; /* Light teal for button */
+    color: #081c15; /* Dark green for button text */
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.tool-card a:hover {
+    background-color: #52b788; /* Darker teal on hover */
+}
+/* Newsletter Section */
+.newsletter-section {
+    background-color: #b7e4c7; /* Soft green background */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 2.5rem;
+    color: #081c15; /* Dark green for the title */
+    margin-bottom: 20px;
+}
+
+.newsletter-text {
+    font-size: 1.2rem;
+    color: #1b4332; /* Dark green for the description */
+    margin-bottom: 40px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #74c69d; /* Light teal border */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.newsletter-form input:focus {
+    border-color: #40916c; /* Dark green border on focus */
+}
+
+.newsletter-form button {
+    padding: 12px 20px;
+    background-color: #52b788; /* Dark teal background */
+    color: #fff; /* White text for button */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #40916c; /* Darker teal on hover */
+}
+/* Footer Section */
+.footer-section {
+    background-color: #081c15; /* Dark green background */
+    color: #d8f3dc; /* Light green text for contrast */
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-about, .footer-links, .footer-social {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-about h3,
+.footer-links h3,
+.footer-social h3 {
+    font-size: 1.8rem;
+    color: #d8f3dc; /* Light green title */
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    font-size: 1rem;
+    color: #b7e4c7; /* Lighter green text */
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    font-size: 1.1rem;
+    color: #d8f3dc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #74c69d; /* Teal hover effect */
+}
+
+.footer-social .social-icons a {
+    font-size: 1.5rem;
+    color: #d8f3dc;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+    color: #74c69d; /* Teal hover effect for icons */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    color: #95d5b2; /* Lighter green for footer bottom text */
+    font-size: 1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
